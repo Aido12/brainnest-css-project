@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'mooniak';
+  src: url(./fonts/header.ttf);
+}
+
+/* * {
+  background-color: #f1f1f1;
+} */
+
+.header {
+  background-color: #1f2937;
+}
+
+.header-logo-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-logo {
+  font-family: 'mooniak', 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #f9faf8;
+  margin-right: 148px;
+}
+
+.navbar {
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.nav-items {
+  text-decoration: none;
+  color: #e5e7eb;
+}
