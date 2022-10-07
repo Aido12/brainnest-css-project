@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
     <title>learnToCode</title>
   </head>
-  <body>
+  <body class="main-page">
     <header>
       <div class="header">
         <div class="header-logo-nav">
@@ -20,37 +20,44 @@
             >
           </nav>
         </div>
-        <div>
-          <h1>This is Awesome</h1>
-          <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English
-          </p>
-        </div>
-        <div>
-          <img src="" alt="" />
+        <div class="header-hero">
+          <div class="header-hero-text">
+            <h1 class="header-hero-head">Welcome Everyone!</h1>
+            <p class="header-hero-para">
+             Here we believe coding is for everyone. We provide you with a list of the best websites you need to help you on your journey to become a front-end web developer. Best thing is, it's all free
+            </p>
+            <button class="header-button">sign up</button>
+            </div>
+          <div class="image-header-div">
+            <img
+              class="image-header"
+              src="./images/header-image.jpg"
+              alt="screen with code"
+              width="520"
+              height="220"
+            />
+          </div>
         </div>
       </div>
     </header>
-    <main>
-      <div>
+    <main >
         <div class="main-head">
           <h1>Please Choose One</h1>
         </div>
         <div class="main-content">
           <div class="main-content-box">
+            <a href="./pages/htmlpage.html">
             <img
               alt="html-logo"
               src="./images/html-5.png"
               width="200"
               height="200"
+
             />
+          </a>
           </div>
           <div class="main-content-box">
-            <a>
+            <a href="./pages/csspage.html">
               <img
                 alt="css-logo"
                 src="./images/css-3.png"
@@ -60,52 +67,48 @@
             </a>
           </div>
           <div class="main-content-box">
+            <a href="./pages/javascriptpage.html">
             <img
               alt="javascript-logo"
               src="./images/javascript.png"
               width="200"
               height="200"
             />
+          </a>
           </div>
         </div>
       </div>
       <div class="main-content-text">
-        <div>
-          <p>text goes here</p>
-        </div>
-        <div>
-          <p>text goes here</p>
-        </div>
-        <div>
-          <p>text goes here</p>
-        </div>
+        <a href="./pages/htmlpage.html" class="main-content-text-link">Learn HTML</a>
+        <a href="./pages/csspage.html" class="main-content-text-link">Learn CSS</a>
+        <a href="./pages/javascriptpage.html" class="main-content-text-link">Learn JavaScript</a>
       </div>
+
+      <div class="sub-main-1">
+        <p class="sub-main-1-content">
+          “Any fool can write code that a computer can understand. Good
+          programmers write code that humans can understand.”
+          <br />
+          – Martin Fowler
+        </p>
+      </div>
+      <div class="sub-main-2">
+        <div class="sub-main-2-content">
+          <div>
+            <span>
+              <strong class="sub-main-2-content-header"
+                >Call to Code, It's time </strong
+              ><br />Sign up for our newsletter!
+            </span>
+          </div>
+          <div >
+            <button class="sub-main-2-button">sign up</button>
+          </div>
+        </div>
+
     </main>
-    <div class="sub-main-1">
-      <p class="sub-main-1-content">
-        “Any fool can write code that a computer can understand. Good
-        programmers write code that humans can understand.”
-        <br />
-        – Martin Fowler
-      </p>
-    </div>
-    <div class="sub-main-2">
-      <div class="sub-main-2-content">
-        <div>
-          <!-- <h3 class="sub-main-2-content-text">Call to Code, It's time</h3> -->
-          <span>
-            <strong class="sub-main-2-content-header"
-              >Call to Code, It's time </strong
-            ><br />Sign up for our newsletter
-          </span>
-        </div>
-        <div class="sub-main-2-button">
-          <span class="sub-main-2-button-center">sign up</span>
-        </div>
-      </div>
-    </div>
     <footer class="footer">
-      <span>learnToCode <br />©copyright</span>
+      <span><span class="logo-footer">learnToCode </span><br />©copyright</span>
     </footer>
   </body>
 </html>
